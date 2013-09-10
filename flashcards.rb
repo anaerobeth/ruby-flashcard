@@ -68,6 +68,6 @@ while exit_app == false
     puts "Incorrect. The answer is: #{answer}"
   end
 
-  continue?
+  exit_app = continue?
 
 end
