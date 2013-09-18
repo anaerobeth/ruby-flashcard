@@ -2,7 +2,7 @@
 #q = "The exception object passed to #raise"
 #a = "$!"
 def continue?
-  print "Do you want to continue? (Y/N):"
+  print "Do you want to continue? (Y/N): "
   response = gets.chomp().downcase
   if response == 'y'
     exit_app = false

@@ -85,7 +85,7 @@ answer_pool = [ "about",
 
 
 def continue?
-  print "Do you want to continue? (Y/N):"
+  print "Do you want to continue? (Y/N): "
   response = gets.chomp().downcase
   if response == 'y'
     exit_app = false

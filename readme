@@ -1,1 +1,5 @@
-Flashcard and quizzer based on terminologies in http://www.zenspider.com/Languages/Ruby/QuickRef.html
+Flashcard and quizzer based on terminologies in:
+
+http://www.zenspider.com/Languages/Ruby/QuickRef.html
+http://www.openbsd.org/
+$ rake -T
