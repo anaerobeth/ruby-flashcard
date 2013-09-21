@@ -5,11 +5,10 @@ def continue?
   print "Do you want to continue? (Y/N): "
   response = gets.chomp().downcase
   if response == 'y'
-    exit_app = false
+    return false
   elsif response == 'n'
-    exit_app = true
+    return true
   end
-    return exit_app
 end
 
 question_pool = [

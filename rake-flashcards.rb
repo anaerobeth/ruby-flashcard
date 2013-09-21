@@ -88,22 +88,19 @@ def continue?
   print "Do you want to continue? (Y/N): "
   response = gets.chomp().downcase
   if response == 'y'
-    exit_app = false
+    return false
   elsif response == 'n'
-    exit_app = true
+    return true
   end
-    return exit_app
 end
 
 
-puts "*** Test your knowledge of Rake Tasks***"
-puts "Based on terminologies from $ rake -T"
-
+puts "*** Test your knowledge of common Rake tasks***"
 
 exit_app = false
 
 while exit_app == false
-  #pick a random question
+  # pick a random question
   num = Random.rand(question_pool.length)
 
   question = question_pool[num]
