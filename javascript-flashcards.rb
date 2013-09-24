@@ -63,7 +63,7 @@ answer_pool = [
  ]
 
 puts "*** Test your knowledge of JavaScript statements!***"
-puts "Vocabulary based on vocabulary from Mozilla Developer Network"
+puts "Vocabulary based on documentation from Mozilla Developer Network"
 puts "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference"
 
 

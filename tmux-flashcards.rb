@@ -2,12 +2,12 @@
 #q = "The exception object passed to #raise"
 #a = "$!"
 def continue?
-  print "Do you want to continue? (Y/N): "
+  print "Enter any key to continue or 'x' to exit: "
   response = gets.chomp().downcase
-  if response == 'y'
-    return false
-  elsif response == 'n'
+  if response == 'x'
     return true
+  else
+    return false
   end
 end
 
